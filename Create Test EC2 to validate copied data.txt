@@ -1,0 +1,4 @@
+Create Test EC2 to validate copied data
+• Launch a FREE tier t2.micro, Amazon Linux 2 AMI EC2 instance with public IP
+• Use security group EC2-SG 
+• Mount EFS and check if data is copied correctly 

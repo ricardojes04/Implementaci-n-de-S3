@@ -1,0 +1,7 @@
+Create Agent 
+•Deploy Dtasync Agent on EC2 instance in public Subnet with Public Ip enabled in your region 
+• Select EC2-SG as the security Group 
+• Copy the ip address of your ec2 instance where agent is deployed. 
+• Choose Public Endpoint for your region 
+• Generate an activation key 
+• Create an agent. 

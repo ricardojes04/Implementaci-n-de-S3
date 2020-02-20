@@ -1,0 +1,7 @@
+Create Amazon EFS  
+• Create a security group named “EFS-SG” for EFS open inbound port 2049 with access to “EC2-SG” security group. 
+• Launch an Amazon EFS in your VPC. 
+• Select EFS-SG as the security group for both the subnets. 
+• Keep remaining settings default. 
+• Create File System 
+• Copy IP address for EFS- Public Subnet. 

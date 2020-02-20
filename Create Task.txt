@@ -1,0 +1,12 @@
+Create Task 
+ Create new source location 
+• Location Type – S3
+• Autogenerate IAM role
+• Create destination location 
+• Location Type- EFS
+• Select your Datasync agent 
+• NFS Server- EFS IP address
+• Mount Path – /
+• Keep remaining setting default 
+• Create Task
+• Start Task- Data Should be copied from S3 to EFS

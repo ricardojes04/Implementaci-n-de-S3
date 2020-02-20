@@ -1,0 +1,13 @@
+Demostración de AWS DataSync: Copiar datos de S3 a EFS
+VPC 
+• Create a VPC with CIDR bloc 10.0.0.0/16
+• Create 2 subnets: 
+o Public Subnet – 10.0.1.0 / 24
+o Private Subnet – 10.0.2.0/ 24
+• Add an internet gateway
+• Modify the default route table to associate it with the private Subnet 
+• Create a separate route with route going to IG and associate it with the Public Subnet 
+S3 –
+• Create a S3 bucket named “mydatasyncdemobucket” with some content in it 
+EC2-SG –
+• Create a Security group name “EC2-SG” with port 80 and 22 open for 0.0.0.0/0
